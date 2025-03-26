@@ -9,13 +9,13 @@ export default function Counter(){
     }
 
     const counterStyle ={
-        border: '2px solid blue'
+        border: '4px solid gold'
     }
 
     return(
-        <div style={counterStyle}>
+        <div  className="Count" style={counterStyle}>
             <h3>Count: {count}</h3>
-            <button onClick={handleAdd}>Add</button>
+            <button className="Button"  onClick={handleAdd}>Add</button>
         </div>
     )
 }

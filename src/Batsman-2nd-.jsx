@@ -33,7 +33,7 @@ export default function Batsman () {
     }
 
     return (
-        <div>
+        <div className="Player">
             <h3>Player: BD Batsman</h3>
 
             <h5>Four: {Four}</h5>
@@ -49,13 +49,13 @@ export default function Batsman () {
 
             <h1>Score: {runs}</h1>
 
-            <button onClick={handleWide}>Wide</button>
+            <button className="Button"  onClick={handleWide}>Wide</button>
 
-            <button onClick={handleSingles}>Singles</button>
+            <button className="Button"  onClick={handleSingles}>Singles</button>
 
-            <button onClick={handleFour}>Four</button>
+            <button className="Button"  onClick={handleFour}>Four</button>
 
-            <button onClick={handleSix}>Six</button>
+            <button className="Button"  onClick={handleSix}>Six</button>
         </div>
     )
 }
